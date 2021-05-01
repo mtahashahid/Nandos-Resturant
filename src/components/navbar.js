@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import logo from "../assets/images/logo.jpg";
 import "../App.css";
-import M from 'materialize-css'
+import M from "materialize-css";
 class navbar extends Component {
   constructor(props) {
     super(props);
     this.state = { background: "black", color: "white" };
   }
-  componentDidMount(){
-    var elems = document.querySelectorAll('.sidenav');
+  componentDidMount() {
+    var elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems);
   }
   render() {
@@ -16,7 +16,13 @@ class navbar extends Component {
       <>
         <nav style={{ backgroundColor: this.state.background }}>
           <div className="nav-wrapper">
-          <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a
+              href="!#"
+              data-target="mobile-demo"
+              className="right sidenav-trigger"
+            >
+              <i className="material-icons">menu</i>
+            </a>
             <a
               href="!#"
               className="left brand-logo"
@@ -48,7 +54,7 @@ class navbar extends Component {
               <li>
                 <a
                   href="!#"
-                  className="waves-effect waves-light btn-small red bold" 
+                  className="waves-effect waves-light btn-small red bold"
                 >
                   <i className="material-icons right ">local_grocery_store</i>
                   Order Now
@@ -65,19 +71,38 @@ class navbar extends Component {
               </li> */}
               {/* <li>
                 <i className="fa fa-twitter" style={{paddingRight: 10, fontSize:24}}></i>
-              </li> */}
+              </li> */} 
             </ul>
           </div>
         </nav>
         <ul className="sidenav" id="mobile-demo">
-          <li><a href="#top">Home</a></li>
-          <li><a href="#aboutus">About us</a></li>
-          <li><a href="#appeteasers">Menu</a></li>
-          <li><a href="#aboutus">Contacts</a></li>
+          <img style={styleBox.sidenavLogo} src={logo} alt="logo" />
           <li>
-            <i className="fa fa-facebook"  style={{fontSize: 24 , paddingRight: 20, paddingLeft: 20}}></i>
-            <i className="fa fa-instagram" style={{fontSize: 24 , paddingRight:20, paddingLeft: 20}}></i>
-            <i className="fa fa-twitter	"  style={{fontSize: 24 , paddingRight: 20, paddingLeft: 20}}></i>
+            <a href="#top">Home</a>
+          </li>
+          <li>
+            <a href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a href="#appeteasers">Menu</a>
+          </li>
+          <li>
+            <a href="#aboutus">Contacts</a>
+          </li>
+          <li>
+          <p style={styleBox.followUs}>Follow Us</p>
+            <i
+              className="fa fa-facebook"
+              style={{ fontSize: 24, paddingRight: 20, paddingLeft: 20, paddingTop: 20}}
+            ></i>
+            <i
+              className="fa fa-instagram"
+              style={{ fontSize: 24, paddingRight: 20, paddingLeft: 20, paddingTop: 20 }}
+            ></i>
+            <i
+              className="fa fa-twitter	"
+              style={{ fontSize: 24, paddingRight: 20, paddingLeft: 20, paddingTop: 20 }}
+            ></i>
           </li>
         </ul>
       </>
@@ -85,11 +110,26 @@ class navbar extends Component {
   }
 }
 const styleBox = {
-  boldtext:{
-    fontWeight: 'bold'
+  boldtext: {
+    fontWeight: "bold",
   },
-  circle:{
-    borderRadius: '50%'
-}
-}
+  circle: {
+    borderRadius: "50%",
+  },
+  sidenavLogo: {
+    borderRadius: "50%",
+    paddingLeft: "30%",
+  },
+  followUs:{  
+    fontFamily: 'Bree Serif, serif',
+    opacity:' 0.8',
+    textTransform: 'uppercase',
+    color: 'black',
+    paddingLeft:20,
+    fontWeight: 600,
+    fontSize:20,
+    background: 'rgba(100,100,100,0.5)',
+    borderColor:' rgb(100, 100, 100)'
+  }
+};
 export default navbar;
