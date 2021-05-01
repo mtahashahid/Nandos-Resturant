@@ -3,21 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-.circle{
-    border-radius: 50%;
-}
-.bold-text{
-  font-weight: bold;
-}
+
 .bold{
   font-weight: bold;
-}
-.name{
-  font-family: 'Pacifico', cursive;
-  font-size: 70px;
-  text-align: center;
-  background-color: black;
-  color: white;
-  opacity: 0.8;
-  text-transform: uppercase;
 }
