@@ -11,6 +11,7 @@ class Appeteasers extends Component {
       <div id="appeteasers">
         <div className="section white">
           <div className="row container" style={{ marginBottom: 0 }}>
+            <hr style={{background:'grey'}} />
             <h2
               className="header"
               style={{
@@ -25,6 +26,16 @@ class Appeteasers extends Component {
         </div>
 
         <div className="parallax-container">
+            <div className="container">
+            <h3
+              style={{
+                fontFamily: "Lobster, cursive",
+                fontStyle: "italic",
+              }}
+            >
+              Menu
+            </h3>
+            </div>
           <div className="parallax">
             <img src={AppeteasersImg} alt="banner" />
           </div>
