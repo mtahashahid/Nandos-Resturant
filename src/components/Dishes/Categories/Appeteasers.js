@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import M from "materialize-css";
 import AppeteasersImg from "../../../assets/images/Parallaxes/appeteasers.jpg";
-
+import {Data} from '../../../Data/Data'
 class Appeteasers extends Component {
   componentDidMount() {
     var elems = document.querySelectorAll(".parallax");
@@ -36,6 +36,7 @@ class Appeteasers extends Component {
             >
               Menu
             </h3>
+            <ProductSlider data={Data.categorys[0]["menu-items"]} styleClass={"light-slider"} />
           </div>
           <div className="parallax">
             <img src={AppeteasersImg} alt="banner" />
