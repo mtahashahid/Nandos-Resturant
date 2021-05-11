@@ -16,8 +16,8 @@ class Banner extends Component {
           </div>
         </div>
         <div className="container" style={{ textAlign: "center" }}>
-          <a href="!#" class="btn-floating pulse" style={{background:'black', margin: '20px auto', display:"block"}}>
-            <i class="material-icons">arrow_drop_down</i>
+          <a href="!#" className="btn-floating pulse" style={{background:'black', margin: '20px auto', display:"block"}}>
+            <i className="material-icons">arrow_drop_down</i>
           </a>
         </div>
       </div>

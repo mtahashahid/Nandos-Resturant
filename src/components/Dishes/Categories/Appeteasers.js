@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import M from "materialize-css";
 import AppeteasersImg from "../../../assets/images/Parallaxes/appeteasers.jpg";
 import {Data} from '../../../Data/Data'
+import ProductSlider from '../ProductSlider'
 class Appeteasers extends Component {
   componentDidMount() {
     var elems = document.querySelectorAll(".parallax");

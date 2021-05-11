@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import M from "materialize-css";
-
+import "../../index.css";
 class ProductSlider extends Component {
   componentDidMount() {
     M.AutoInit();

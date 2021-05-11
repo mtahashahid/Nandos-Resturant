@@ -146,7 +146,7 @@ export let Data = {
             name: "3 Chicken Wings",
             position: 1,
             description: "Tender, Spicy and Juicy. Original or Peri-Crusted",
-            image: require("../Images/appetizer-platter2.jpg").default,
+            image: require("../assets/images/Dishes/garlic.jpg").default,
             "sub-items": [
               {
                 id: "224471",
@@ -214,7 +214,7 @@ export let Data = {
             name: "Hummus with PERI-PERI Drizzle (V)",
             position: 4,
             description: "Pour Smoky PERi-PERi Oil Over Creamy Hummus and Dig in with Strips Of Warm Pita",
-            image: require("../Images/Spicy-Piri-Piri-Hummus.jpeg"),
+            image: require("../assets/images/Dishes/appetizer-platter2.jpg"),
             "sub-items": [
               {
                 id: "224480",
@@ -237,7 +237,7 @@ export let Data = {
             name: "Red Pepper Dip (V)",
             position: 5,
             description: "Dive Into Temping Roasted Red Pepper and Chili Spice Dip with Warm Pita Strips",
-            image: require("../Images/redpepperdip.jpeg"),
+            image: require("../assets/images/Dishes/redpepperdip.jpeg"),
             "sub-items": [
               {
                 id: "224483",
@@ -260,7 +260,7 @@ export let Data = {
             name: "Appeteaser Platter",
             position: 6,
             description: "Choose any Three Appeteasers",
-            image: require("../Images/appetizer-platter2.jpg"),
+            image: require("../assets/images/Dishes/appetizer-platter2.jpg"),
             "sub-items": [
               {
                 id: "224486",
@@ -283,7 +283,7 @@ export let Data = {
             name: "All Together Now (V)",
             position: 7,
             description: "Spicy Mixed Olives, Red Pepper Dip, Hummus with PERi-PERi Drizzle and Warm Pita Strips",
-            image: require("../Images/jennifer-burk-gwBcamFtPr4-unsplash.jpg"),
+            image: require("../assets/images/Dishes/jennifer-burk-gwBcamFtPr4-unsplash.jpg"),
             "sub-items": [
               {
                 id: "224489",
@@ -313,7 +313,7 @@ export let Data = {
             name: "PERi-PERi Wedges (P)",
             position: 8,
             description: "",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224522",
@@ -350,7 +350,7 @@ export let Data = {
             name: "Corn-On-The-Cob",
             position: 9,
             description: "",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224528",
@@ -394,7 +394,7 @@ export let Data = {
             name: "1/4 Chicken",
             position: 10,
             description: "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224543",
@@ -445,7 +445,7 @@ export let Data = {
             name: "1/2 Chicken",
             position: 11,
             description: "Half Chicken Marinated with PERi-PERi Sauce and Grilled",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224552",
@@ -496,7 +496,7 @@ export let Data = {
             name: "5 Chicken Wings",
             position: 12,
             description: "Original Flavours or PERi-PEREi Crusted (P)",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224561",
@@ -547,7 +547,7 @@ export let Data = {
             name: "Wing Roulette",
             position: 13,
             description: "10 Wings in PERi-PERi Flavors",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224570",
@@ -570,7 +570,7 @@ export let Data = {
             name: "Whole Chicken",
             position: 14,
             description: "Whole Chicken Marinated in PERi-PERi Sauce and Grilled",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224573",
@@ -593,7 +593,7 @@ export let Data = {
             name: "Chicken Butterfly",
             position: 15,
             description: "Succulent Double Chicken Breast in Crispy Skin",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224576",
@@ -644,7 +644,7 @@ export let Data = {
             name: "Espetada",
             position: 16,
             description: "Tender Marinated Chicken Thighs and Fresh Peppers, Served on a Skewer",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224585",
@@ -695,7 +695,7 @@ export let Data = {
             name: "Espetada Carnival",
             position: 17,
             description: "Flame-Grilled PERi-PERi Thighs, Stuffed with Feta and Parsley, Skewered with Mixed Peppers",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224594",
@@ -746,7 +746,7 @@ export let Data = {
             name: "Grilled Chicken Tenders",
             position: 18,
             description: "Juicy and Tender, Delicious with All Sides",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224603",
@@ -804,7 +804,7 @@ export let Data = {
             name: "Full Platter",
             position: 19,
             description: "For 3-4 People, Whole Chicken with  2 Large or 4 Regular Rides",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224615",
@@ -841,7 +841,7 @@ export let Data = {
             name: "No Bones Platter",
             position: 20,
             description: "For 2-3 People, Chicken Butterfly and a Espetada, with 2 Large or 4 Regular Sides",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224621",
@@ -878,7 +878,7 @@ export let Data = {
             name: "Jumbo Platter",
             position: 21,
             description: "For 4-6 People, 2 Whole Chickens and 5 Large Sides",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224627",
@@ -908,7 +908,7 @@ export let Data = {
             name: "Dessert",
             position: 22,
             description: "",
-            image: require("../Images/cake.jpg"),
+            image: require("../assets/images/Dishes/cake.jpg"),
             "sub-items": [
               {
                 id: "224665",
@@ -952,7 +952,7 @@ export let Data = {
             name: "PERi-PERi Chips (P)",
             position: 23,
             description: "Crunchy Chips with PERi-PERi Sauce",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224492",
@@ -989,7 +989,7 @@ export let Data = {
             name: "Spicy Rice",
             position: 24,
             description: "Spicy fried rice",
-            image: require("../Images/spicyrice.jpg"),
+            image: require("../assets/images/Dishes/spicyrice.jpg"),
             "sub-items": [
               {
                 id: "224498",
@@ -1026,7 +1026,7 @@ export let Data = {
             name: "Coleslaw (M)",
             position: 25,
             description: "Cabbage, Carrot, Nando&amp;#039;s Special Mayonnaise",
-            image: require("../Images/drumstick.jpg"),
+            image: require("../assets/images/Dishes/drumstick.jpg"),
             "sub-items": [
               {
                 id: "224504",
@@ -1063,7 +1063,7 @@ export let Data = {
             name: "Grilled Veg",
             position: 26,
             description: "Grilled Assorted Vegetables",
-            image: require("../Images/veg-garlic.jpg"),
+            image: require("../assets/images/Dishes/veg-garlic.jpg"),
             "sub-items": [
               {
                 id: "224510",
@@ -1100,7 +1100,7 @@ export let Data = {
             name: "Garlic Bread",
             position: 27,
             description: "Toasted Garlic Flavored Bread",
-            image: require("../Images/garlic.jpg"),
+            image: require("../assets/images/Dishes/garlic.jpg"),
             "sub-items": [
               {
                 id: "224516",
@@ -1145,7 +1145,7 @@ export let Data = {
             position: 28,
             description:
               "Fresh Tomato, Nando&amp;#039;s Peri-Olives, Mixed Peppers, Cucumber and Onion on A Bed of Crisp Lettuce",
-            image: require("../Images/salad3.jpg"),
+            image: require("../assets/images/Dishes/salad3.jpg"),
             "sub-items": [
               {
                 id: "224534",
@@ -1169,7 +1169,7 @@ export let Data = {
             position: 29,
             description:
               "Piccolo Tomato, Cucumber, Sweet Peppers and Mixed Leaves. Sprinkled with Olives and Feta Cheese",
-            image: require("../Images/salad2.jpg"),
+            image: require("../assets/images/Dishes/salad2.jpg"),
             "sub-items": [
               {
                 id: "224537",
@@ -1192,7 +1192,7 @@ export let Data = {
             name: "Caesar Salad (M)",
             position: 30,
             description: "Cos Lettuce Sprinkled with Parmesan Cheese, Caesar Dressing and Crunchy Croutons",
-            image: require("../Images/salad1.jpg"),
+            image: require("../assets/images/Dishes/salad1.jpg"),
             "sub-items": [
               {
                 id: "224540",
@@ -1222,7 +1222,7 @@ export let Data = {
             name: "Cataplana Algarve",
             position: 31,
             description: "PERi-PERi Chicken Thighs, Mixed Peppers, Chickpeas, Spicy Rice and Cataplana Sauce",
-            image: require("../Images/something-new.jpeg"),
+            image: require("../assets/images/Dishes/something-new.jpeg"),
             "sub-items": [
               {
                 id: "224612",
@@ -1253,7 +1253,7 @@ export let Data = {
             position: 32,
             description:
               "A Lightly Toasted Wrap, Generously Filled With Tender Chicken, Chili Jam, Green Leaf Lettuce and Tangy Yoghurt Sauce",
-            image: require("../Images/burger1.jpg"),
+            image: require("../assets/images/Dishes/burger1.jpg"),
             "sub-items": [
               {
                 id: "224630",
@@ -1305,7 +1305,7 @@ export let Data = {
             position: 33,
             description:
               "Served on A Toasted Portuguese Roll with Fresh Rocket, Tomato, Pickled Red Onions and Perinaise",
-            image: require("../Images/burger2.jpg"),
+            image: require("../assets/images/Dishes/burger2.jpg"),
             "sub-items": [
               {
                 id: "224639",
@@ -1358,7 +1358,7 @@ export let Data = {
             position: 34,
             description:
               "Served in A Toasted Wrap Full Of PERi-PERi Chicken, Crunchy Croutons, Parmesan Cheese and Sundried Tomatoes, All Smothered in Creamy Caesar Dressing",
-            image: require("../Images/burger3.jpg"),
+            image: require("../assets/images/Dishes/burger3.jpg"),
             "sub-items": [
               {
                 id: "224648",
@@ -1410,7 +1410,7 @@ export let Data = {
             position: 35,
             description:
               "Served in A Lightly Toasted Pita, Stuffed With Chicken Tenders, Crisp Veggie Salad and Creamy Whip",
-            image: require("../Images/burger4.jpg"),
+            image: require("../assets/images/Dishes/burger4.jpg"),
             "sub-items": [
               {
                 id: "224657",
