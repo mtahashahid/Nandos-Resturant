@@ -13,7 +13,7 @@ class Appeteasers extends Component {
       <div id="appeteasers">
         <div className="section white">
           <div className="row container" style={{ marginBottom: 0 }}>
-            <hr style={{ background: "grey" }} />
+            <hr style={{ opacity:0.4 }} />
             <h2
               className="header"
               style={{

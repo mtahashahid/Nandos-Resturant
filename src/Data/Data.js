@@ -146,7 +146,7 @@ export let Data = {
             name: "3 Chicken Wings",
             position: 1,
             description: "Tender, Spicy and Juicy. Original or Peri-Crusted",
-            image: require("../assets/images/Dishes/garlic.jpg").default,
+            image: require("../assets/images/Dishes/wings.jpg").default,
             "sub-items": [
               {
                 id: "224471",
@@ -166,14 +166,14 @@ export let Data = {
           },
           {
             id: "94301",
-            name: "Chicken Livers and Portuguese Roll",
+            name: "Chicken Portuguese Roll",
             position: 2,
             description: "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
-            image: "../Images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg",
+            image: require("../assets/images/Dishes/chicken liver roll.jpg").default,
             "sub-items": [
               {
                 id: "224474",
-                name: "Chicken Livers and Portuguese Roll",
+                name: "Chicken Portuguese Roll",
                 position: 1,
                 price: "250.00",
                 consumable: "1:1",
@@ -192,6 +192,7 @@ export let Data = {
             name: "Spicy Mixed Olives (V)",
             position: 3,
             description: "Co-Starring Garlic, Pepper and Chili",
+            image: require("../assets/images/Dishes/jennifer-burk-gwBcamFtPr4-unsplash.jpg").default,
             "sub-items": [
               {
                 id: "224477",
@@ -211,14 +212,14 @@ export let Data = {
           },
           {
             id: "94307",
-            name: "Hummus with PERI-PERI Drizzle (V)",
+            name: "Hummus PERI-PERI Drizzle",
             position: 4,
             description: "Pour Smoky PERi-PERi Oil Over Creamy Hummus and Dig in with Strips Of Warm Pita",
-            image: require("../assets/images/Dishes/appetizer-platter2.jpg"),
+            image: require("../assets/images/Dishes/Spicy-Piri-Piri-Hummus.jpeg").default,
             "sub-items": [
               {
                 id: "224480",
-                name: "Hummus with PERI-PERI Drizzle (V)",
+                name: "Hummus with PERI-PERI Drizzle",
                 position: 1,
                 price: "215.00",
                 consumable: "1:1",
@@ -237,7 +238,7 @@ export let Data = {
             name: "Red Pepper Dip (V)",
             position: 5,
             description: "Dive Into Temping Roasted Red Pepper and Chili Spice Dip with Warm Pita Strips",
-            image: require("../assets/images/Dishes/redpepperdip.jpeg"),
+            image: require("../assets/images/Dishes/redpepperdip.jpg").default,
             "sub-items": [
               {
                 id: "224483",
@@ -260,7 +261,7 @@ export let Data = {
             name: "Appeteaser Platter",
             position: 6,
             description: "Choose any Three Appeteasers",
-            image: require("../assets/images/Dishes/appetizer-platter2.jpg"),
+            image: require("../assets/images/Dishes/appetizer-platter2.jpg").default,
             "sub-items": [
               {
                 id: "224486",
@@ -283,7 +284,7 @@ export let Data = {
             name: "All Together Now (V)",
             position: 7,
             description: "Spicy Mixed Olives, Red Pepper Dip, Hummus with PERi-PERi Drizzle and Warm Pita Strips",
-            image: require("../assets/images/Dishes/jennifer-burk-gwBcamFtPr4-unsplash.jpg"),
+            image: require("../assets/images/Dishes/jennifer-burk-gwBcamFtPr4-unsplash.jpg").default,
             "sub-items": [
               {
                 id: "224489",

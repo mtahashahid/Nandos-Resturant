@@ -58,6 +58,8 @@ class ProductSlider extends Component {
                 style={{
                   fontSize: 16,
                   marginBottom: 0,
+                  marginTop: 10,
+                  padding:5,
                   fontFamily: "Cormorant Garamond",
                 }}
               >

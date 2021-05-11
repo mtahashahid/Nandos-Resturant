@@ -28,7 +28,7 @@ const stylebox = {
   name: {
     fontFamily: "Pacifico, cursive",
     textAlign: "center",
-    opacity: " 0.8",
+    opacity: " 0.9",
     textTransform: "uppercase",
     color: "white",
     fontWeight: 500,
