@@ -314,7 +314,7 @@ export let Data = {
             name: "PERi-PERi Wedges (P)",
             position: 8,
             description: "",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/peri peri wedges.jpeg").default,
             "sub-items": [
               {
                 id: "224522",
@@ -351,7 +351,7 @@ export let Data = {
             name: "Corn-On-The-Cob",
             position: 9,
             description: "",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/corn on the cob.jpg").default,
             "sub-items": [
               {
                 id: "224528",

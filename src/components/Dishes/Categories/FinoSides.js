@@ -1,52 +1,46 @@
 import React, { Component } from "react";
-import M from "materialize-css";
+import posterImg from "../../../assets/images/Parallaxes/finoSides.jpg";
 import { Data } from "../../../Data/Data";
 import ProductSlider from "../ProductSlider";
-import posterImg from "../../../assets/images/Parallaxes/burger.jpg";
-
-class BurgerWraps extends Component {
+import M from "materialize-css";
+class FinoSides extends Component {
   componentDidMount() {
     var elems = document.querySelectorAll(".parallax");
     M.Parallax.init(elems);
   }
   render() {
     return (
-      <div id="urgersPitasWraps">
+      <div>
         <div className="section white">
           <div className="row container" style={{ marginBottom: 0 }}>
             <h2
-              className="header"
               style={{
                 fontFamily: "Parisienne, cursive",
                 fontStyle: "italic",
                 marginBottom: 0,
               }}
             >
-              {Data.categorys[8].name}
+              {Data.categorys[1].name}
             </h2>
             <p className="grey-text text-darken-3 lighten-3">
-              {Data.categorys[8].discription}
+              {Data.categorys[1].discription}
             </p>
           </div>
         </div>
-
         <div className="parallax-container">
           <div className="container">
-            <h3 style={{ fontFamily: "Lobster, cursive"}}>
-              Menu Items
-            </h3>
-            <ProductSlider
-              data={Data.categorys[8]["menu-items"]}
-              styleClass={"light-slider"}
-            />
+            <h3 style={{ fontFamily: "Lobster, cursive", 
+            // fontStyle: "italic" 
+            }}>Menu</h3>
+            <ProductSlider data={Data.categorys[1]["menu-items"]} styleClass={"light-slider"} />
           </div>
 
           <div className="parallax">
-            <img alt="" width="100%" src={posterImg} />
+            <img alt="parallax" width="100%" src={posterImg} />
           </div>
         </div>
-      </div>
+    </div>
     );
   }
 }
-export default BurgerWraps;
+export default FinoSides;
