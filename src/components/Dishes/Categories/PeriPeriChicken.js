@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import posterImg from "../../../assets/images/Parallaxes/finoSides.jpg";
+import M from "materialize-css";
 import { Data } from "../../../Data/Data";
 import ProductSlider from "../ProductSlider";
-import M from "materialize-css";
-class FinoSides extends Component {
+import posterImg from "../../../assets/images/Parallaxes/periperichicken.jpg";
+class PeriPeriChicken extends Component {
   componentDidMount() {
     var elems = document.querySelectorAll(".parallax");
     M.Parallax.init(elems);
@@ -11,7 +11,7 @@ class FinoSides extends Component {
   render() {
     return (
       <div>
-        <div className="section white" style={{paddingBottom: '2rem'}}>
+        <div className="section white" style={{ paddingBottom: "2rem" }}>
           <div className="row container" style={{ marginBottom: 0 }}>
             <h2
               style={{
@@ -20,27 +20,35 @@ class FinoSides extends Component {
                 marginBottom: 0,
               }}
             >
-              {Data.categorys[1].name}
+              {Data.categorys[2].name}
             </h2>
             <p className="grey-text text-darken-3 lighten-3">
-              {Data.categorys[1].discription}
+              {Data.categorys[2].description}
             </p>
           </div>
         </div>
         <div className="parallax-container">
           <div className="container">
-            <h3 style={{ fontFamily: "Lobster, cursive", 
-            // fontStyle: "italic" 
-            }}>Menu</h3>
-            <ProductSlider data={Data.categorys[1]["menu-items"]} styleClass={"light-slider"} />
+            <h3
+              style={{
+                fontFamily: "Lobster, cursive",
+                // fontStyle: "italic"
+              }}
+            >
+              Menu
+            </h3>
+            <ProductSlider
+              data={Data.categorys[2]["menu-items"]}
+              styleClass={"lightSliders"}
+            ></ProductSlider>
           </div>
-
           <div className="parallax">
-            <img alt="parallax" width="100%" src={posterImg} />
+            <img src={posterImg} width="100%" alt="parallax" />
           </div>
         </div>
-    </div>
+      </div>
     );
   }
 }
-export default FinoSides;
+
+export default PeriPeriChicken;
