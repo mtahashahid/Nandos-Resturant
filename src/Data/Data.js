@@ -571,7 +571,7 @@ export let Data = {
             name: "Whole Chicken",
             position: 14,
             description: "Whole Chicken Marinated in PERi-PERi Sauce and Grilled",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/wholechicken.jpeg").default,
             "sub-items": [
               {
                 id: "224573",
@@ -594,7 +594,7 @@ export let Data = {
             name: "Chicken Butterfly",
             position: 15,
             description: "Succulent Double Chicken Breast in Crispy Skin",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/butterflyChicken.jpg").default,
             "sub-items": [
               {
                 id: "224576",
@@ -645,7 +645,7 @@ export let Data = {
             name: "Espetada",
             position: 16,
             description: "Tender Marinated Chicken Thighs and Fresh Peppers, Served on a Skewer",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/espetada.jpg").default,
             "sub-items": [
               {
                 id: "224585",
@@ -696,7 +696,7 @@ export let Data = {
             name: "Espetada Carnival",
             position: 17,
             description: "Flame-Grilled PERi-PERi Thighs, Stuffed with Feta and Parsley, Skewered with Mixed Peppers",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/espetada.jpg").default,
             "sub-items": [
               {
                 id: "224594",
@@ -747,7 +747,7 @@ export let Data = {
             name: "Grilled Chicken Tenders",
             position: 18,
             description: "Juicy and Tender, Delicious with All Sides",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/grilledChicken.jpg").default,
             "sub-items": [
               {
                 id: "224603",
