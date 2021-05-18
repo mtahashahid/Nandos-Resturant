@@ -446,7 +446,7 @@ export let Data = {
             name: "1/2 Chicken",
             position: 11,
             description: "Half Chicken Marinated with PERi-PERi Sauce and Grilled",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/halfChicken.jpg").default,
             "sub-items": [
               {
                 id: "224552",
@@ -497,7 +497,7 @@ export let Data = {
             name: "5 Chicken Wings",
             position: 12,
             description: "Original Flavours or PERi-PEREi Crusted (P)",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/5wings.jpg").default,
             "sub-items": [
               {
                 id: "224561",
@@ -548,7 +548,7 @@ export let Data = {
             name: "Wing Roulette",
             position: 13,
             description: "10 Wings in PERi-PERi Flavors",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../../src/assets/images/Dishes/wingsRoulette.jpg").default,
             "sub-items": [
               {
                 id: "224570",
