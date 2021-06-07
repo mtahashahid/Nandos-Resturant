@@ -395,7 +395,7 @@ export let Data = {
             name: "1/4 Chicken",
             position: 10,
             description: "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/quarterChicken.jpg").default,
             "sub-items": [
               {
                 id: "224543",
@@ -805,7 +805,7 @@ export let Data = {
             name: "Full Platter",
             position: 19,
             description: "For 3-4 People, Whole Chicken with  2 Large or 4 Regular Rides",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/fullPlatter.jpg").default,
             "sub-items": [
               {
                 id: "224615",
@@ -842,7 +842,7 @@ export let Data = {
             name: "No Bones Platter",
             position: 20,
             description: "For 2-3 People, Chicken Butterfly and a Espetada, with 2 Large or 4 Regular Sides",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/bonelessPlatter.jpg").default,
             "sub-items": [
               {
                 id: "224621",
@@ -879,7 +879,7 @@ export let Data = {
             name: "Jumbo Platter",
             position: 21,
             description: "For 4-6 People, 2 Whole Chickens and 5 Large Sides",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/jumboPlatter.jpg").default,
             "sub-items": [
               {
                 id: "224627",
