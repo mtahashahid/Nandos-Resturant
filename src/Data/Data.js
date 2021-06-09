@@ -909,7 +909,7 @@ export let Data = {
             name: "Dessert",
             position: 22,
             description: "",
-            image: require("../assets/images/Dishes/cake.jpg"),
+            image: require("../assets/images/Dishes/cake.jpg").default,
             "sub-items": [
               {
                 id: "224665",
