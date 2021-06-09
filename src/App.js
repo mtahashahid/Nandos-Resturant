@@ -7,7 +7,9 @@ import PeriPeriChicken from '../src/components/Dishes/Categories/PeriPeriChicken
 import SharingPlatters from '../src/components/Dishes/Categories/SharingPlatters'
 import Desserts from '../src/components/Dishes/Categories/Desserts'
 import Sides from '../src/components/Dishes/Categories/Sides'
-// import BurgerWraps from '../src/components/Dishes/Categories/BurgerWraps'
+import Salads from '../src/components/Dishes/Categories/Salads'
+import TrySomethingNew from '../src/components/Dishes/Categories/TrySomethingNew'
+import BurgerWraps from '../src/components/Dishes/Categories/BurgerWraps'
 function App() {
   return (
     <div >
@@ -19,7 +21,9 @@ function App() {
       <SharingPlatters/>
       <Desserts/>
       <Sides/>
-      {/* <BurgerWraps/> */}
+      <Salads/>
+      <TrySomethingNew/>
+      <BurgerWraps/>
     </div>
   );
 }

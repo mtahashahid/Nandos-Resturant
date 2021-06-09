@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import M from "materialize-css";
 import { Data } from "../../../Data/Data";
 import ProductSlider from "../ProductSlider";
-
+import posterImg from '../../../assets/images/Parallaxes/sides1.jpg'
 class Sides extends Component {
+  componentDidMount() {
+    var elems = document.querySelectorAll(".parallax");
+    M.Parallax.init(elems);
+  }
   render() {
     return (
       <div>
@@ -37,7 +42,9 @@ class Sides extends Component {
               styleClass={"lightSliders"}
             ></ProductSlider>
           </div>
-          <div></div>
+          <div className="parallax">
+            <img src={posterImg} width="100%" alt="parallax"/>
+          </div>
         </div>
       </div>
     );

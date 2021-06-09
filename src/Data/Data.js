@@ -953,7 +953,7 @@ export let Data = {
             name: "PERi-PERi Chips (P)",
             position: 23,
             description: "Crunchy Chips with PERi-PERi Sauce",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/periperiChips.jpg").default,
             "sub-items": [
               {
                 id: "224492",
@@ -990,7 +990,7 @@ export let Data = {
             name: "Spicy Rice",
             position: 24,
             description: "Spicy fried rice",
-            image: require("../assets/images/Dishes/spicyrice.jpg"),
+            image: require("../assets/images/Dishes/spicyrice.jpg").default,
             "sub-items": [
               {
                 id: "224498",
@@ -1027,7 +1027,7 @@ export let Data = {
             name: "Coleslaw (M)",
             position: 25,
             description: "Cabbage, Carrot, Nando&amp;#039;s Special Mayonnaise",
-            image: require("../assets/images/Dishes/drumstick.jpg"),
+            image: require("../assets/images/Dishes/coleslaw.jpeg").default,
             "sub-items": [
               {
                 id: "224504",
@@ -1064,7 +1064,7 @@ export let Data = {
             name: "Grilled Veg",
             position: 26,
             description: "Grilled Assorted Vegetables",
-            image: require("../assets/images/Dishes/veg-garlic.jpg"),
+            image: require("../assets/images/Dishes/veg-garlic.jpg").default,
             "sub-items": [
               {
                 id: "224510",
@@ -1101,7 +1101,7 @@ export let Data = {
             name: "Garlic Bread",
             position: 27,
             description: "Toasted Garlic Flavored Bread",
-            image: require("../assets/images/Dishes/garlic.jpg"),
+            image: require("../assets/images/Dishes/garlicBread.jpg").default,
             "sub-items": [
               {
                 id: "224516",
@@ -1146,7 +1146,7 @@ export let Data = {
             position: 28,
             description:
               "Fresh Tomato, Nando&amp;#039;s Peri-Olives, Mixed Peppers, Cucumber and Onion on A Bed of Crisp Lettuce",
-            image: require("../assets/images/Dishes/salad3.jpg"),
+            image: require("../assets/images/Dishes/salad3.jpg").default,
             "sub-items": [
               {
                 id: "224534",
@@ -1170,7 +1170,7 @@ export let Data = {
             position: 29,
             description:
               "Piccolo Tomato, Cucumber, Sweet Peppers and Mixed Leaves. Sprinkled with Olives and Feta Cheese",
-            image: require("../assets/images/Dishes/salad2.jpg"),
+            image: require("../assets/images/Dishes/mediterraneanSalad.jpg").default,
             "sub-items": [
               {
                 id: "224537",
@@ -1193,7 +1193,7 @@ export let Data = {
             name: "Caesar Salad (M)",
             position: 30,
             description: "Cos Lettuce Sprinkled with Parmesan Cheese, Caesar Dressing and Crunchy Croutons",
-            image: require("../assets/images/Dishes/salad1.jpg"),
+            image: require("../assets/images/Dishes/ceasarSalad.jpg").default,
             "sub-items": [
               {
                 id: "224540",
@@ -1223,7 +1223,7 @@ export let Data = {
             name: "Cataplana Algarve",
             position: 31,
             description: "PERi-PERi Chicken Thighs, Mixed Peppers, Chickpeas, Spicy Rice and Cataplana Sauce",
-            image: require("../assets/images/Dishes/something-new.jpeg"),
+            image: require("../assets/images/Dishes/cataplanaAlgarve.jpg").default,
             "sub-items": [
               {
                 id: "224612",
@@ -1254,7 +1254,7 @@ export let Data = {
             position: 32,
             description:
               "A Lightly Toasted Wrap, Generously Filled With Tender Chicken, Chili Jam, Green Leaf Lettuce and Tangy Yoghurt Sauce",
-            image: require("../assets/images/Dishes/burger1.jpg"),
+            image: require("../assets/images/Dishes/chickenWrap.jpg").default,
             "sub-items": [
               {
                 id: "224630",
@@ -1306,7 +1306,7 @@ export let Data = {
             position: 33,
             description:
               "Served on A Toasted Portuguese Roll with Fresh Rocket, Tomato, Pickled Red Onions and Perinaise",
-            image: require("../assets/images/Dishes/burger2.jpg"),
+            image: require("../assets/images/Dishes/ChickenBurger.jpg").default,
             "sub-items": [
               {
                 id: "224639",
@@ -1358,8 +1358,8 @@ export let Data = {
             name: "Chicken Caesar Wrap (M)",
             position: 34,
             description:
-              "Served in A Toasted Wrap Full Of PERi-PERi Chicken, Crunchy Croutons, Parmesan Cheese and Sundried Tomatoes, All Smothered in Creamy Caesar Dressing",
-            image: require("../assets/images/Dishes/burger3.jpg"),
+              "With A Toasted Wrap Full Of PERi-PERi Chicken, Crunchy Croutons, Parmesan Cheese and Sundried Tomatoes, All Smothered in Creamy Caesar Dressing",
+            image: require("../assets/images/Dishes/ceasarWrap.jpg").default,
             "sub-items": [
               {
                 id: "224648",
@@ -1411,7 +1411,7 @@ export let Data = {
             position: 35,
             description:
               "Served in A Lightly Toasted Pita, Stuffed With Chicken Tenders, Crisp Veggie Salad and Creamy Whip",
-            image: require("../assets/images/Dishes/burger4.jpg"),
+            image: require("../assets/images/Dishes/chickenPita.jpeg").default,
             "sub-items": [
               {
                 id: "224657",
