@@ -63,15 +63,15 @@ export let Data = {
         },
         {
           id: "18",
-          name: "Bashundhara",
+          name: "Model",
         },
         {
           id: "19",
-          name: "Mirpur DOHS",
+          name: "DOHS",
         },
         {
           id: "164",
-          name: "300 feet road bashundhara",
+          name: "300 feet road Cantt",
         },
       ],
       ratings: [

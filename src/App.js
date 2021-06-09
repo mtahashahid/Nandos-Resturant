@@ -10,6 +10,7 @@ import Sides from '../src/components/Dishes/Categories/Sides'
 import Salads from '../src/components/Dishes/Categories/Salads'
 import TrySomethingNew from '../src/components/Dishes/Categories/TrySomethingNew'
 import BurgerWraps from '../src/components/Dishes/Categories/BurgerWraps'
+import AboutUs from '../src/components/AboutUs'
 function App() {
   return (
     <div >
@@ -24,6 +25,7 @@ function App() {
       <Salads/>
       <TrySomethingNew/>
       <BurgerWraps/>
+      <AboutUs/>
     </div>
   );
 }
