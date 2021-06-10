@@ -1,20 +1,24 @@
+import AOS from "aos";
+import "aos/dist/aos.css"; 
 import React, { Component } from "react";
 import { Data } from "../Data/Data";
 class AboutUs extends Component {
+  componentDidMount() {
+    AOS.init();
+  }
   render() {
     return (
       <div id="aboutus" className="container-fluid" style={{ marginTop: 30 }}>
         <div className="row">
           <div
             className="col offset-s1 s10 offset-m1 m10 offset-l1 l10"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="0"
-            data-aos-duration="1000"
+            // data-aos="zoom-in"
+            data-aos="zoom-in-up"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
             data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="0"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-duration="1000"
             style={styleBox.mainBox}
           >
             <div className="container-fluid">
@@ -65,7 +69,7 @@ class AboutUs extends Component {
                   <h3 style={styleBox.heading}>Our Reach!</h3>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -81,7 +85,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -97,7 +101,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -113,7 +117,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -129,7 +133,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -145,7 +149,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -161,7 +165,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
@@ -177,7 +181,7 @@ class AboutUs extends Component {
                   </p>
                   <p
                     style={{
-                        paddingTop:8,
+                      paddingTop: 8,
                       fontStyle: "italic",
                       color: "#9f9f9f",
                       marginLeft: 100,
