@@ -27,7 +27,7 @@ export let Data = {
         },
         {
           id: "3",
-          type: "bKash",
+          type: "Cash",
         },
         {
           id: "4",

@@ -12,6 +12,7 @@ import TrySomethingNew from '../src/components/Dishes/Categories/TrySomethingNew
 import BurgerWraps from '../src/components/Dishes/Categories/BurgerWraps'
 import AboutUs from '../src/components/AboutUs'
 import ContactUs from '../src/components/ContactUs'
+import Footer from '../src/components/Footer'
 function App() {
   return (
     <div >
@@ -28,6 +29,7 @@ function App() {
       <BurgerWraps/>
       <AboutUs/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 }
