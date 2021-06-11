@@ -41,6 +41,7 @@ code {
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
+
 }
 .horizontalCards {
   padding: 10px !important;
@@ -49,4 +50,10 @@ code {
 }
 .aboutUsText {
   overflow: hidden;
+}
+
+@media screen and (min-width: 500) {
+  alignment{
+  margin-top: 80px !important;
+  }
 }
